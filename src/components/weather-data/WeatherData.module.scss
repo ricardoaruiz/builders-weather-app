@@ -1,0 +1,18 @@
+@import '../../assets/style/variables';
+
+.WeatherData {
+    grid-area: content;
+  
+    padding: 10px 0;
+    max-width: 600px;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 10px;
+
+    .Weather {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+
+  }

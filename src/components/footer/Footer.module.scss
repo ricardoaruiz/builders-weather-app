@@ -1,0 +1,40 @@
+@import '../../assets/style/variables';
+
+.Footer {
+    grid-area: footer;
+    height: 50px;
+    background: $gray;
+    padding: 0 15px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    div:first-child {
+        small {
+            font-weight: lighter;
+        }
+        span {
+            font-weight: bold;
+            margin-left: 10px;
+        }
+        i {
+            margin: 0 5px 0 25px;
+        }
+    }
+
+    div:last-child {
+        a {
+            color: $white;
+
+            :hover {
+                color: $light-gray;
+            }
+        }
+
+        i {
+            margin-left: 10px;
+            font-size: 1.5rem;
+        }
+    }
+}

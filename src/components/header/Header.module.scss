@@ -1,0 +1,11 @@
+@import '../../assets/style/variables';
+
+.Header {
+    grid-area: header;
+    height: 50px;
+    background: $gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
